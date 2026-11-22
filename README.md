@@ -20,9 +20,7 @@ Technology names in the skill groups and project tags are the same in both langu
 
 ## CV
 
-The **Download CV** button points at `assets/cv-nicolas-iavicoli.pdf`.
-
-That file is not in the repository yet. Put the PDF at that exact path and commit it. Until then the link returns a 404. Do not rename it: the button, the contact section, and this note all use that name.
+The **Download CV** button points at `assets/cv-nicolas-iavicoli.pdf`. Replace that file when the CV changes, and keep the same name so the button, the contact section, and this note stay in sync.
 
 ## Portrait and project images
 
