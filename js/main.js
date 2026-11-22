@@ -2,6 +2,10 @@
   var LANG_KEY = "portfolio-lang";
   var THEME_KEY = "portfolio-theme";
   var lang = "en";
+  var CV = {
+    en: { href: "assets/cv-nicolas-iavicoli-en.pdf", download: "cv-nicolas-iavicoli-en.pdf" },
+    es: { href: "assets/cv-nicolas-iavicoli.pdf", download: "cv-nicolas-iavicoli.pdf" }
+  };
 
   function systemTheme() {
     return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
@@ -51,6 +55,16 @@
     document.querySelectorAll("[data-lang-set]").forEach(function (button) {
       var on = button.getAttribute("data-lang-set") === lang;
       button.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+
+    var other = lang === "es" ? "en" : "es";
+    document.querySelectorAll("[data-cv='primary']").forEach(function (el) {
+      el.setAttribute("href", CV[lang].href);
+      el.setAttribute("download", CV[lang].download);
+    });
+    document.querySelectorAll("[data-cv='alt']").forEach(function (el) {
+      el.setAttribute("href", CV[other].href);
+      el.setAttribute("download", CV[other].download);
     });
 
     if (persist) {

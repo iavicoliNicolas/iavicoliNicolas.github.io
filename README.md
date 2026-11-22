@@ -20,7 +20,12 @@ Technology names in the skill groups and project tags are the same in both langu
 
 ## CV
 
-The **Download CV** button points at `assets/cv-nicolas-iavicoli.pdf`. Replace that file when the CV changes, and keep the same name so the button, the contact section, and this note stay in sync.
+Two PDFs, chosen by the language on the page:
+
+- `assets/cv-nicolas-iavicoli-en.pdf` is the English CV. **Download CV** uses it while the interface is in English, including when JavaScript is off.
+- `assets/cv-nicolas-iavicoli.pdf` is the Spanish CV. The same button switches to it when the language is Spanish.
+
+A smaller link next to the button offers the other language. The hero and the contact section both do this. Keep these filenames. Replace a file in place when that CV changes.
 
 ## Portrait and project images
 

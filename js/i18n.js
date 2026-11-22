@@ -31,6 +31,7 @@ window.I18N = {
     "hero.github": "GitHub",
     "hero.linkedin": "LinkedIn",
     "hero.cv": "Download CV",
+    "hero.cvAlt": "CV in Spanish",
     "hero.avatarAlt": "GitHub avatar of Nicolás Iavicoli Dulcet",
 
     "about.eyebrow": "About",
@@ -175,6 +176,7 @@ window.I18N = {
     "hero.github": "GitHub",
     "hero.linkedin": "LinkedIn",
     "hero.cv": "Descargar CV",
+    "hero.cvAlt": "CV en inglés",
     "hero.avatarAlt": "Avatar de GitHub de Nicolás Iavicoli Dulcet",
 
     "about.eyebrow": "Sobre mí",
